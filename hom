@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Foodie Recipes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fun Foodie Recipes</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Recipes</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2>Delicious Pizza Recipe</h2>
+      <img src="pizza-ingredients.jpg" alt="Pizza Ingredients">
+      <p>This is a delicious pizza recipe that you can make at home with simple ingredients.</p>
+      <h3>Ingredients:</h3>
+      <ul>
+        <li>1 pizza crust</li>
+        <li>1/2 cup tomato sauce</li>
+        <li>1 cup shredded mozzarella cheese</li>
+        <li>Assorted toppings (pepperoni, mushrooms, bell peppers, etc.)</li>
+      </ul>
+      <h3>Instructions:</h3>
+      <ol>
+        <li>Preheat your oven to 425°F (220°C).</li>
+        <li>Spread the tomato sauce evenly over the pizza crust.</li>
+        <li>Sprinkle the shredded mozzarella cheese over the sauce.</li>
+        <li>Add your favorite toppings.</li>
+        <li>Bake in the preheated oven for 12-15 minutes, or until the crust is golden brown and the cheese is melted and bubbly.</li>
+        <li>Remove from the oven and let it cool for a few minutes before slicing.</li>
+      </ol>
+      <img src="delicious-pizza.jpg" alt="Delicious Pizza">
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Fun Foodie Recipes. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
