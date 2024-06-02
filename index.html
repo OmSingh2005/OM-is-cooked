@@ -7,6 +7,28 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
+  <style>.dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+      color: #333; /* Dark text for readability */
+    }
+
+    /* Show the dropdown content when the button is clicked */
+    .dropdown.active .dropdown-content {
+      display: block;
+    }
+  </style>
 <body>
   <header>
     <h1>I am Cooked😋😋</h1>
@@ -73,7 +95,21 @@ Bill is already paid by roll no fourty three<br><br>
     <li>Chhotu ka brain 🧠 (500g)</li>
   </ul>
 </ol>
-      <h3>Instructions:</h3>
+<div class="dropdown">
+        <button onclick="toggleDropdown()">Instructions</button>
+        <div class="dropdown-content">
+          <ol>
+            <li>Mix all marination ingredients in a bowl.</li>
+            <li>Add the seasoning and mix well.</li>
+            <li>Combine the base meat with the marination mixture.</li>
+            <li>Let it marinate for at least 2 hours in the refrigerator.</li>
+            <li>Preheat your grill to medium-high heat.</li>
+            <li>Grill the kebabs until fully cooked, about 10-15 minutes.</li>
+            <li>Serve hot and enjoy!</li>
+          </ol>
+        </div>
+      </div>
+<!--       <h3>Instructions:</h3>
 <ol>
   <li>Marinate the meat in a mixture of 1/2 cup hung curd, 1/4 cup BBQ sauce, 2 tbsp ginger garlic paste, and add a touch of love from the chef.</li>
   <li>Season the marinated meat with grounded flirt chili, salt, pepper, and a sprinkle of MDH kebab mix.</li>
@@ -81,7 +117,7 @@ Bill is already paid by roll no fourty three<br><br>
   <li>Preheat your grill to medium-high heat.</li>
   <li>Grill the kebabs for 4-5 minutes per side, or until cooked through and lightly charred.</li>
   <li>Remove from the grill and let them rest for a few minutes before serving with a side of masoom smile.</li>
-</ol>
+</ol> -->
 
       <img src="tom1.jpg" alt="Delicious Kebab" style="max-width: 100%;">
     </article>
